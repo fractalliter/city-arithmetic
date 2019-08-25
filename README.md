@@ -8,7 +8,7 @@ You need to have JDK 8 or higher installed on your machine
 
 check Java by:
 
-`Java -version`
+`java -version`
 
 you might see something like this:
 
