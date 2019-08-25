@@ -4,14 +4,14 @@ class City(name: String, pop: Long) {
   val inhabitant: Long = pop
 
   /**
-   * Add to city instance with each other the name of two city will be merged and populations will be summed
+   * Add to city instance with each other the name of two city will be merged and populations will be added
    * @param that City
    * @return City
    */
   def +(that: City): City = new City(nameMerger(this.cityName, that.cityName), this.inhabitant + that.inhabitant)
 
   /**
-   * Minus to city instance with each other, the same characters in name of two city will be dropped and populations will be minuses
+   * Subtract to city instance with each other, the same characters in name of two city will be dropped and populations will be subtracted
    * @param that City
    * @return City
    */
@@ -38,7 +38,7 @@ class City(name: String, pop: Long) {
 
   /**
    * Drop the same chars in two city and merge the remind strings
-   * If they are the same city instance it will return an empty string
+   * If they are the same city names it will return an empty string
    * @param cityName1 String
    * @param cityName2 String
    * @return String
