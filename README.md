@@ -22,7 +22,7 @@ for installing `sbt` visit [sbt reference manual](https://www.scala-sbt.org/rele
 
 ## About program
 
-this is a simple command line program that use arithmetic methods in Scala for add and minus two city instance
+this is a simple command line program that use arithmetic methods in Scala for add and subtract two city instance
 
 ### how to run project
 
@@ -38,10 +38,10 @@ run sbt:
 
 `sbt`
 
-and after initial build run project with the following command:
+and after initial build run project with the following command for addition:
 
 `run london 14187146 + paris 12532901`
 
-or
+or this one for subtract:
 
 `run london 14187146 - paris 12532901`
