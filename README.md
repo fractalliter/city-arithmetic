@@ -1,10 +1,11 @@
 # A simple program with Scala language
 
-It's just a simple prorgram in Scala language that use arithmetic methods in Scala for add two city instances
+It's just a simple prorgram in Scala language that uses arithmetic methods in Scala.
 
 ## prerequisites
 
 You need to have JDK 8 or higher installed on your machine
+
 check Java by:
 
 `Java -version`
@@ -22,7 +23,7 @@ for installing `sbt` visit [sbt reference manual](https://www.scala-sbt.org/rele
 
 ## About program
 
-this is a simple command line program that use arithmetic methods in Scala for add and subtract two city instance
+this is a simple command line program that uses arithmetic methods in Scala for add and subtract two city instance. more arithmetic operations are in the way to be implemented.
 
 ### how to run project
 
@@ -30,7 +31,7 @@ clone:
 
 `git clone https://gitlab.com/fractalliter/city-arithmetic.git`
 
-go to project:
+go to project folder:
 
 `cd city-arithmetic/`
 
