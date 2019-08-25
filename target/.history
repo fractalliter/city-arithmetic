@@ -16,5 +16,6 @@ run tehra 1200000 - mashha 4000000
 run tehra 12000000 - mashha 4000000
 run tehra 12000000 + mashha 4000000
 run tehra 12000000 - mashha 4000000
-run tehran 12345 + mashhad 233455
+run london 234555 - london 234555
+run london 234555 + london 234555
 exit
