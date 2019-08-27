@@ -1,11 +1,10 @@
 object MainCities {
   def main(args: Array[String]): Unit = {
-    if(args(2) == "+"){
-      printToScreen(new City(args(0), args(1) toLong) + new City(args(3), args(4) toLong))
-    }else if(args(2) == "-"){
-      printToScreen(new City(args(0), args(1) toLong) - new City(args(3), args(4) toLong))
-    }else
-      println(s"The operand ("+args(2)+") not implemented yet :(")
+    args(2) match {
+      case "+" => printToScreen(new City(args(0), args(1) toLong) + new City(args(3), args(4) toLong))
+      case "-" => printToScreen(new City(args(0), args(1) toLong) - new City(args(3), args(4) toLong))
+      case _ => println("The operand ("+args(2)+") not implemented yet :(")
+    }
   }
 
   def printToScreen(city: City): Unit = {
