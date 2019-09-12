@@ -29,7 +29,7 @@ this is a simple command line program that uses arithmetic methods in Scala for 
 
 clone:
 
-`git clone https://gitlab.com/fractalliter/city-arithmetic.git`
+`git clone https://github.com/fractalliter/city-arithmetic.git`
 
 go to project folder:
 
