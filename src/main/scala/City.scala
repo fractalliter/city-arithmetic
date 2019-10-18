@@ -50,5 +50,5 @@ class City(name: String, pop: Long) {
       ""
   }
 
-  override def toString = "City of " + cityName + " has " + inhabitant + " population"
+  override def toString: String = "City of " + cityName + " has " + inhabitant + " population"
 }
